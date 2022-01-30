@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mekanismmatter:block/arc_furnace"
+    },
+    "facing=east": {
+      "model": "mekanismmatter:block/arc_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mekanismmatter:block/arc_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mekanismmatter:block/arc_furnace",
+      "y": 270
+    }
+  }
+}

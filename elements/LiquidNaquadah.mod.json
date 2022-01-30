@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Liquid Naquadah",
+    "bucketName": "Liquid Naquadah Bucket",
+    "textureStill": "naquadah_fluid_still",
+    "textureFlowing": "naquadah_fluid_flow",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "flowStrength": 1.0,
+    "luminosity": 3,
+    "density": 25000,
+    "viscosity": 5000,
+    "isGas": true,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": false,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

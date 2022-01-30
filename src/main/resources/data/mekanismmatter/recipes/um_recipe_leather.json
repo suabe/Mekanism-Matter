@@ -1,0 +1,33 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "4": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "6": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "7": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "8": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 32
+  }
+}

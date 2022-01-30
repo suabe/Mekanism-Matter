@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/bottom",
+    "up": "mekanismmatter:blocks/top",
+    "north": "mekanismmatter:blocks/replicator_front_animated",
+    "east": "mekanismmatter:blocks/right",
+    "south": "mekanismmatter:blocks/back",
+    "west": "mekanismmatter:blocks/right",
+    "particle": "mekanismmatter:blocks/bottom"
+  }
+}

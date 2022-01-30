@@ -1,0 +1,2280 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Scarp",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scarp"
+    },
+    {
+      "name": "MassFabricatorOnButtonClicked",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mass_fabricator_on_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MassFabricator",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mass_fabricator"
+    },
+    {
+      "name": "MassFabricatorUpdateTick",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mass_fabricator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UniversalMatter",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "universal_matter"
+    },
+    {
+      "name": "UniversalMatterFluid",
+      "type": "fluid",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "universal_matter_fluid",
+      "metadata": {
+        "gb": false
+      }
+    },
+    {
+      "name": "ScrapBoxRCP",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scrap_box_rcp"
+    },
+    {
+      "name": "MekanismMatter",
+      "type": "tab",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mekanism_matter"
+    },
+    {
+      "name": "UMRecipeWool",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_wool"
+    },
+    {
+      "name": "UMRecipeBones",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_bones"
+    },
+    {
+      "name": "UMRecipeFeather",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_feather"
+    },
+    {
+      "name": "UMRecipeLeather",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_leather"
+    },
+    {
+      "name": "UMRecipeInksac",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_inksac"
+    },
+    {
+      "name": "UMRecipeWater",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_water"
+    },
+    {
+      "name": "UMRecipeLava",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_lava"
+    },
+    {
+      "name": "UMRecipeCoal",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_coal"
+    },
+    {
+      "name": "UMRecipeEmeraldore",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_emeraldore"
+    },
+    {
+      "name": "UMRecipeRedstone",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_redstone"
+    },
+    {
+      "name": "UMRecipeLapis",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_lapis"
+    },
+    {
+      "name": "Recycler",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "recycler"
+    },
+    {
+      "name": "RecyclerUpdateTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recycler_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UMRecipeCopper",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "um_recipe_copper"
+    },
+    {
+      "name": "UMRecipeOsmium",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "um_recipe_osmium"
+    },
+    {
+      "name": "UMRecipeTin",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "um_recipe_tin"
+    },
+    {
+      "name": "UMRecipeSteel",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "um_recipe_steel"
+    },
+    {
+      "name": "MassFabricatorRCP",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mass_fabricator_rcp"
+    },
+    {
+      "name": "EnergylossGUI",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energyloss_gui",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreativeEnergySourceUpdateTick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_energy_source_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreativeEnergySource",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_energy_source"
+    },
+    {
+      "name": "UMRecipeLog",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_log"
+    },
+    {
+      "name": "UMRecipeSnow",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_snow"
+    },
+    {
+      "name": "UMRecipeGrass",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_grass"
+    },
+    {
+      "name": "UMRecipeGlass",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "um_recipe_glass"
+    },
+    {
+      "name": "TestProcedure",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Replicator",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "replicator"
+    },
+    {
+      "name": "ReplicatorMachine",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "matter_synthesizer"
+    },
+    {
+      "name": "ReplicatorAdd",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "replicator_add",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReplicatorRemove",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "replicator_remove",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReplicatorMachineUpdateTick",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "replicator_machine_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RunSinglePressed",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "run_single_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RunMultyPressed",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "run_multy_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RunStopPressed",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "run_stop_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecyclerRCP",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "recycler_rcp"
+    },
+    {
+      "name": "ReplicatorRCP",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "replicator_rcp"
+    },
+    {
+      "name": "ReplicationAdvancement",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "replication_advancement"
+    },
+    {
+      "name": "MatterAnalyser",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "matter_analyser"
+    },
+    {
+      "name": "MatterAnalyserUpdateTick",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "matter_analyser_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cvb",
+      "type": "gui",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cvb"
+    },
+    {
+      "name": "Sdfdf",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sdfdf"
+    },
+    {
+      "name": "Naquadah",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah"
+    },
+    {
+      "name": "Naquadria",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadria"
+    },
+    {
+      "name": "NaquadahFuel",
+      "type": "fuel",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_fuel"
+    },
+    {
+      "name": "NaquadaReinforcedTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquada_reinforced_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaquadaReinforcedTNT",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquada_reinforced_tnt"
+    },
+    {
+      "name": "NaquadaReinforcedTNTRedstoneOn",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquada_reinforced_tnt_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaquadahReinforcedTNTRCP",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reinforced_tntrcp"
+    },
+    {
+      "name": "MatterAnalyserRCP",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "matter_analyser_rcp"
+    },
+    {
+      "name": "NaquadahReactor",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "naquadah_reactor"
+    },
+    {
+      "name": "Scrapbox",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scrapbox"
+    },
+    {
+      "name": "NaquadahReactorUpdateTick",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiquidNaquadah",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liquid_naquadah",
+      "metadata": {
+        "gb": false
+      }
+    },
+    {
+      "name": "RefinedNaquadah",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "refined_naquadah"
+    },
+    {
+      "name": "ArcFurnace",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "arc_furnace"
+    },
+    {
+      "name": "ArcFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arc_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TriniumRod",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_rod"
+    },
+    {
+      "name": "TriniumIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_ingot"
+    },
+    {
+      "name": "TriniumDust",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_dust"
+    },
+    {
+      "name": "NaquadahOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_ore"
+    },
+    {
+      "name": "TriniumDustRCP",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_dust_rcp"
+    },
+    {
+      "name": "CarbonRod",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carbon_rod"
+    },
+    {
+      "name": "NaquadahIngotRCP",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_ingot_rcp"
+    },
+    {
+      "name": "TriniumBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_block"
+    },
+    {
+      "name": "NaquadahBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_block"
+    },
+    {
+      "name": "ScrapboxRightClickedInAir",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scrapbox_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaquadahRCP",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_rcp"
+    },
+    {
+      "name": "TriniumBlockRCP",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_block_rcp"
+    },
+    {
+      "name": "NaquadahblockbackRCP",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadahblockback_rcp"
+    },
+    {
+      "name": "TriniumblockbackRCP",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "triniumblockback_rcp"
+    },
+    {
+      "name": "NaquadahReactorRCP",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "naquadah_reactor_rcp"
+    },
+    {
+      "name": "CarbonRodRCP",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carbon_rod_rcp"
+    },
+    {
+      "name": "TriniumRodRCP",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "trinium_rod_rcp"
+    },
+    {
+      "name": "ArcFurnaceRCP",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "arc_furnace_rcp"
+    },
+    {
+      "name": "PatternStorage",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pattern_storage"
+    },
+    {
+      "name": "Scanner",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "scanner"
+    },
+    {
+      "name": "ScannerUpdateTick",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scanner_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScannerONButtonpressed",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scanner_on_buttonpressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Testgui",
+      "type": "gui",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testgui"
+    },
+    {
+      "name": "Showbuttonscanner",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "showbuttonscanner",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScannerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scanner_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scasnnergui",
+      "type": "gui",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scasnnergui"
+    },
+    {
+      "name": "SpeedUpgradeTag",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "speed_upgrade_tag"
+    },
+    {
+      "name": "PatternStorageRightClickedInAir",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pattern_storage_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScannerRCP",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "scanner_rcp"
+    },
+    {
+      "name": "PatternStorageGUI",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "pattern_storage_gui"
+    },
+    {
+      "name": "EverythingCanBeReplicated",
+      "type": "gamerule",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "everythingCanBeReplicated",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Ingotsnaquadah",
+      "type": "tag",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ingotsnaquadah"
+    },
+    {
+      "name": "Ingotsrefinednaquadah",
+      "type": "tag",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ingotsrefinednaquadah"
+    },
+    {
+      "name": "NaquadriaTag",
+      "type": "tag",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadria_tag"
+    },
+    {
+      "name": "IrradiatedPotionItem",
+      "type": "potion",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irradiated"
+    },
+    {
+      "name": "NaquadahReactorMultyGUI",
+      "type": "gui",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_multy_gui"
+    },
+    {
+      "name": "TriniumReactorCasing",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "trinium_reactor_casing"
+    },
+    {
+      "name": "NaquadahReactorController",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_controller"
+    },
+    {
+      "name": "TriniumReactorGlass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "trinium_reactor_glass"
+    },
+    {
+      "name": "NaquadahReactorControllerUpdateTick",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_controller_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NRG2WhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nrg_2_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SafetymodeButtonPressed",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "safetymode_button_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnOffButtonPressed",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_off_button_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ftgzhbncht",
+      "type": "gui",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ftgzhbncht"
+    },
+    {
+      "name": "ReactorInputPort",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reactor_input_port"
+    },
+    {
+      "name": "ReactorOutputPort",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reactor_output_port"
+    },
+    {
+      "name": "ReactorOutputPortOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reactor_output_port_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NaquadahReactorParts",
+      "type": "tag",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_parts"
+    },
+    {
+      "name": "NaquadahReactorItemTag",
+      "type": "tag",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_item_tag"
+    },
+    {
+      "name": "ReactorOutputPortUpdateTick",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reactor_output_port_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReactorInputPortUpdateTick",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reactor_input_port_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InputGUI",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "input_gui"
+    },
+    {
+      "name": "NaquadahReactorControllerBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "naquadah_reactor_controller_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IrradiatedOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irradiated_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ores",
+      "type": "tag",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ores"
+    },
+    {
+      "name": "Oresnaquadah",
+      "type": "tag",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oresnaquadah"
+    },
+    {
+      "name": "OresBlock",
+      "type": "tag",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ores_block"
+    },
+    {
+      "name": "OreNaquadahBlock",
+      "type": "tag",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_naquadah_block"
+    },
+    {
+      "name": "ReactorInputPortOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reactor_input_port_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TriniumReactorCasingRCP",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "trinium_reactor_casing_rcp"
+    },
+    {
+      "name": "TriniumReactorGlassRCP",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trinium_reactor_glass_rcp"
+    },
+    {
+      "name": "ReactorControllerRCP",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reactor_controller_rcp"
+    },
+    {
+      "name": "ReactorPortRCP",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "reactor_port_rcp"
+    },
+    {
+      "name": "AstrangePartofMatter",
+      "type": "achievement",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astrange_partof_matter"
+    },
+    {
+      "name": "Recyclingisalwaysgood",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recyclingisalwaysgood"
+    },
+    {
+      "name": "WhatsTRhis",
+      "type": "achievement",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whats_t_rhis"
+    },
+    {
+      "name": "TooMuchMatter",
+      "type": "achievement",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "too_much_matter"
+    },
+    {
+      "name": "PatternStorageRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pattern_storage_right_clicked_on_block",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ReactorParticles",
+      "type": "particle",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reactor_particles"
+    },
+    {
+      "name": "AntimatterSynthesizer",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "antimatter_synthesizer"
+    },
+    {
+      "name": "AntimatterSynthsizerOnButtonPressed",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antimatter_synthsizer_on_button_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntimatterSynthesizerUpdateTick",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antimatter_synthesizer_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntimatterSynthesizerRCP",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "antimatter_synthesizer_rcp"
+    },
+    {
+      "name": "FoodReplicator",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "food_replicator"
+    },
+    {
+      "name": "FoodReplicatorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "food_replicator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FoodReplicatorNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "food_replicator_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MassFabricatorGUINew",
+      "type": "gui",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mass_fabricator_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "RecyclerGUINew",
+      "type": "gui",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "recycler_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "ReplicatorGUINew",
+      "type": "gui",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "replicator_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "MatterAnalyserGUINew",
+      "type": "gui",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "matter_analyser_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "ScannerGUINew",
+      "type": "gui",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "scanner_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "NaquadahReactorGUINew",
+      "type": "gui",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "naquadah_reactor_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "ArcFurnaceGUINew",
+      "type": "gui",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "arc_furnace_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "NaquadahReactorMultyGUINew",
+      "type": "gui",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "naquadah_reactor_multy_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "AntimatterSynthesizerGUINew",
+      "type": "gui",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "antimatter_synthesizer_gui_new",
+      "path": "~/New GUIs"
+    },
+    {
+      "name": "Replicatable",
+      "type": "tag",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "replicatable"
+    },
+    {
+      "name": "EnergyOMeter",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_o_meter"
+    },
+    {
+      "name": "Irradiated",
+      "type": "potioneffect",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irradiated"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Downloads",
+      "type": "string",
+      "scope": "global",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.mekanismmatter.reactor_output_port": "Reactor Output Port",
+      "item.mekanismmatter.naquadah": "Naquadah",
+      "fluid.mekanismmatter.liquid_naquadah": "Liquid Naquadah",
+      "item.mekanismmatter.liquid_naquadah_bucket": "Liquid Naquadah Bucket",
+      "block.mekanismmatter.matter_analyser": "§bMatter Analyser",
+      "item.mekanismmatter.scrapbox": "§6Scrapbox",
+      "block.mekanismmatter.arc_furnace": "Arc Furnace",
+      "item.mekanismmatter.trinium_rod": "Trinium Rod",
+      "advancements.recyclingisalwaysgood.descr": "Craft a Recycler",
+      "block.mekanismmatter.creative_energy_source": "Creative Energy Source",
+      "block.mekanismmatter.liquid_naquadah": "Liquid Naquadah",
+      "block.mekanismmatter.naquadah_reactor": "§2Portable Naquadah Reactor",
+      "item.mekanismmatter.trinium_ingot": "Trinium Ingot",
+      "effect.irradiated": "Irradiated",
+      "advancements.whats_t_rhis.title": "Whats This?",
+      "advancements.replication_advancement.title": "Replication!",
+      "item.minecraft.splash_potion.effect.irradiated": "Splash Irradiated",
+      "gamerule.everythingCanBeReplicated": "Everything can be replicated in the Replicator",
+      "fluid.universal_matter_fluid": "UniversalMatterFluid",
+      "block.mekanismmatter.recycler": "Recycler",
+      "gamerule.everythingCanBeReplicated.description": "Everything can be replicated in the Replicator",
+      "block.mekanismmatter.naquadah_reactor_controller": "Naquadah Reactor Controller",
+      "block.mekanismmatter.naquadah_ore": "Naquadah Ore",
+      "advancements.too_much_matter.descr": "Craft a Matter Analyser",
+      "item.minecraft.potion.effect.irradiated": "Irradiated",
+      "item.minecraft.tipped_arrow.effect.irradiated": "Arrow of Irradiated",
+      "advancements.replication_advancement.descr": "Craft a Replicator",
+      "item.mekanismmatter.trinium_dust": "Trinium Dust",
+      "block.mekanismmatter.trinium_block": "Trinium Block",
+      "advancements.astrange_partof_matter.title": "A §oStrange §rPart of Matter",
+      "block.mekanismmatter.scanner": "Scanner",
+      "block.mekanismmatter.antimatter_synthesizer": "§5Antimatter Synthesizer",
+      "block.mekanismmatter.food_replicator": "Food Replicator",
+      "block.mekanismmatter.naquadah_block": "§eNaquadah Block",
+      "fluid.mekanismmatter.universal_matter_fluid": "Universal Matter Fluid",
+      "item.mekanismmatter.universal_matter_fluid_bucket": "Universal Matter Fluid Bucket",
+      "advancements.whats_t_rhis.descr": "Craft a Scanner",
+      "item.mekanismmatter.universal_matter": "Universal Mass",
+      "itemGroup.tabmekanism_matter": "Mekanism: Matter Addon",
+      "item.mekanismmatter.pattern_storage": "§5Pattern Storage",
+      "advancements.astrange_partof_matter.descr": "Place a Mass Fabricator",
+      "item.mekanismmatter.scarp": "Scrap",
+      "block.mekanismmatter.universal_matter_fluid": "Universal Matter Fluid",
+      "block.mekanismmatter.naquada_reinforced_tnt": "Naquadah Reinforced TNT",
+      "item.mekanismmatter.naquadria": "Naquadria",
+      "advancements.recyclingisalwaysgood.title": "Recycling is always good!",
+      "item.mekanismmatter.refined_naquadah": "§eRefined Naquadah",
+      "item.minecraft.lingering_potion.effect.irradiated": "Lingering Irradiated",
+      "block.mekanismmatter.trinium_reactor_casing": "Trinium Reactor Casing",
+      "block.mekanismmatter.reactor_input_port": "Reactor Input Port",
+      "item.mekanismmatter.carbon_rod": "Carbon Rod",
+      "block.mekanismmatter.energy_o_meter": "Energy O Meter",
+      "block.mekanismmatter.mass_fabricator": "§dMass Fabricator",
+      "block.mekanismmatter.trinium_reactor_glass": "Trinium Reactor Glass",
+      "block.mekanismmatter.matter_synthesizer": "§dMatter Synthesizer",
+      "advancements.too_much_matter.title": "Too Much Matter",
+      "fluid.liquid_naquadah": "LiquidNaquadah"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "New GUIs",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mekanismmatter",
+    "modName": "Mekanism: Matter",
+    "version": "1.22.0",
+    "description": "All about conversion from energy and matter",
+    "author": "inzhefop",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/mekanism-matter",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "mekanism-matter",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "electrona"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mekanismmatter",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100235315
+}

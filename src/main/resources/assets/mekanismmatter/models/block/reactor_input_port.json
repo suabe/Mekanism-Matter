@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/reactor_port_in",
+    "up": "mekanismmatter:blocks/reactor_port_in",
+    "north": "mekanismmatter:blocks/reactor_port_in",
+    "east": "mekanismmatter:blocks/reactor_port_in",
+    "south": "mekanismmatter:blocks/reactor_port_in",
+    "west": "mekanismmatter:blocks/reactor_port_in",
+    "particle": "mekanismmatter:blocks/reactor_port_in"
+  }
+}

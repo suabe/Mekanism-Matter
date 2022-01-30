@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "naquadah_generator_modeltexture"
+      },
+      "name": "default"
+    }
+  }
+}

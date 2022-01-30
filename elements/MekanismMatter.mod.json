@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Mekanism: Matter Addon",
+    "icon": {
+      "value": "CUSTOM:MassFabricator"
+    },
+    "showSearch": false
+  }
+}

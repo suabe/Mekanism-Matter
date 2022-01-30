@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mekanismmatter:trinium_reactor_glass",
+    "mekanismmatter:reactor_input_port",
+    "mekanismmatter:reactor_output_port",
+    "mekanismmatter:trinium_reactor_casing"
+  ]
+}

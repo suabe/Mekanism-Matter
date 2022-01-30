@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mekanismmatter:block/energy_o_meter"
+    },
+    "facing=east": {
+      "model": "mekanismmatter:block/energy_o_meter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mekanismmatter:block/energy_o_meter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mekanismmatter:block/energy_o_meter",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mekanismmatter:block/energy_o_meter",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mekanismmatter:block/energy_o_meter",
+      "x": 90
+    }
+  }
+}

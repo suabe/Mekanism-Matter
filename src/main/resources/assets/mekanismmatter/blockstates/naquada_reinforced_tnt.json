@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mekanismmatter:block/naquada_reinforced_tnt"
+    },
+    "facing=east": {
+      "model": "mekanismmatter:block/naquada_reinforced_tnt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mekanismmatter:block/naquada_reinforced_tnt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mekanismmatter:block/naquada_reinforced_tnt",
+      "y": 270
+    }
+  }
+}

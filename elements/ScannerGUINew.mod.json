@@ -1,0 +1,119 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 141,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input.png",
+          "use1Xscale": false,
+          "name": "input.png",
+          "x": 141,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inner_screen.png",
+          "use1Xscale": false,
+          "name": "inner_screen.png",
+          "x": 175,
+          "y": 56
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Save",
+          "onClick": {
+            "name": "ScannerONButtonpressed"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Save",
+          "x": 202,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "normal.png",
+          "use1Xscale": false,
+          "name": "normal.png",
+          "x": 182,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scanner",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Scanner",
+          "x": 196,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:procenttextnbt>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:procenttextnbt>",
+          "x": 179,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:filledtextnbt>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:filledtextnbt>",
+          "x": 179,
+          "y": 69
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

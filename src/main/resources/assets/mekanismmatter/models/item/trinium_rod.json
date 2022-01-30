@@ -1,0 +1,7 @@
+{
+  "parent": "mekanismmatter:custom/trinium_rod_v1",
+  "textures": {
+    "texture": "mekanismmatter:blocks/arc_extra",
+    "particle": "mekanismmatter:items/patterncard1"
+  }
+}

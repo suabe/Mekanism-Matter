@@ -1,0 +1,23 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "3 5"
+  ],
+  "key": {
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "3": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "5": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "mekanism:ingot_copper",
+    "count": 1
+  }
+}

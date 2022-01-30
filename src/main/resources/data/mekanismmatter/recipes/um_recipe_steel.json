@@ -1,0 +1,36 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "1": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "4": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "6": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "7": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "8": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "mekanism:ingot_steel",
+    "count": 1
+  }
+}

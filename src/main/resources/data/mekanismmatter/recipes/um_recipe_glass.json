@@ -1,0 +1,27 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "3": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "5": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "7": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "minecraft:glass",
+    "count": 32
+  }
+}

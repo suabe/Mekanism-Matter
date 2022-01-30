@@ -1,0 +1,134 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Antimatter Synthesizer",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Antimatter Synthesizer",
+          "x": 158,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tank_holder_standart.png",
+          "use1Xscale": false,
+          "name": "tank_holder_standart.png",
+          "x": 276,
+          "y": 50
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "matterfill_full_58px.png",
+          "use1Xscale": false,
+          "name": "matterfill_full_58px.png",
+          "x": 277,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "standard.png",
+          "use1Xscale": false,
+          "name": "standard.png",
+          "x": 277,
+          "y": 51
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 159,
+          "y": 73
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 249,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "large_right.png",
+          "use1Xscale": false,
+          "name": "large_right.png",
+          "x": 188,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Solid",
+          "onClick": {
+            "name": "AntimatterSynthsizerOnButtonPressed"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Solid",
+          "x": 188,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input.png",
+          "use1Xscale": false,
+          "name": "input.png",
+          "x": 159,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output.png",
+          "use1Xscale": false,
+          "name": "output.png",
+          "x": 249,
+          "y": 73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

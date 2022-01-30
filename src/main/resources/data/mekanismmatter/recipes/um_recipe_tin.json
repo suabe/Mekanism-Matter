@@ -1,0 +1,23 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "  5"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "5": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "mekanism:ingot_tin",
+    "count": 1
+  }
+}

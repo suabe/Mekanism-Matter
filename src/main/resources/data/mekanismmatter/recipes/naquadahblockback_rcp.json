@@ -1,0 +1,13 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanismmatter:naquadah_block"
+    }
+  ],
+  "result": {
+    "item": "mekanismmatter:naquadah",
+    "count": 9
+  }
+}

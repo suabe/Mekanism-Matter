@@ -1,0 +1,7 @@
+{
+  "parent": "mekanismmatter:custom/carbon_rod_v1",
+  "textures": {
+    "texture": "mekanismmatter:blocks/carbon_rod",
+    "particle": "mekanismmatter:items/ingot"
+  }
+}

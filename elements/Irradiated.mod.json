@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Irradiated",
+    "icon": "1170px-radioactive.svg.png",
+    "color": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "IrradiatedOnPotionActiveTick"
+    }
+  }
+}

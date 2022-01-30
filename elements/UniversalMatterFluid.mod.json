@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Universal Matter Fluid",
+    "bucketName": "Universal Matter Fluid Bucket",
+    "textureStill": "matter_still2",
+    "textureFlowing": "matter_flow2",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 10000,
+    "viscosity": 4000,
+    "isGas": true,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": false,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

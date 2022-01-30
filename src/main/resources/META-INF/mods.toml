@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="mekanismmatter"
+version="1.22.0"
+displayName="Mekanism: Matter"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/mekanism-matter"
+logoFile="logo.png"
+authors="inzhefop"
+description='''
+All about conversion from energy and matter
+'''
+
+[[dependencies.mekanismmatter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

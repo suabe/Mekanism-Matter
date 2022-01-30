@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "title": {
+      "translate": "advancements.astrange_partof_matter.title"
+    },
+    "description": {
+      "translate": "advancements.astrange_partof_matter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "astrange_partof_matter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "mekanismmatter:mass_fabricator"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

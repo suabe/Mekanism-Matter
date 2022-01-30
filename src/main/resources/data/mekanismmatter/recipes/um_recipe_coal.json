@@ -1,0 +1,24 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "3  ",
+    "  8"
+  ],
+  "key": {
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "3": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "8": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 8
+  }
+}

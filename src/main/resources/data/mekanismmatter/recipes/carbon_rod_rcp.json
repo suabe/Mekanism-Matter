@@ -1,0 +1,30 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_dye"
+    },
+    "1": {
+      "item": "mekanismmatter:trinium_ingot"
+    },
+    "2": {
+      "item": "minecraft:black_dye"
+    },
+    "4": {
+      "item": "mekanismmatter:trinium_ingot"
+    },
+    "7": {
+      "item": "mekanismmatter:trinium_ingot"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:trinium_rod",
+    "count": 1
+  }
+}

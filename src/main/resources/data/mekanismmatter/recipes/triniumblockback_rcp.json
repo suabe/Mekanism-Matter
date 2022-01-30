@@ -1,0 +1,16 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanismmatter:trinium_block"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:trinium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "1": {
+      "item": "mekanism:supercharged_coil"
+    },
+    "2": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "3": {
+      "item": "mekanism:teleportation_core"
+    },
+    "4": {
+      "item": "mekanism:antiprotonic_nucleosynthesizer"
+    },
+    "5": {
+      "item": "mekanism:teleportation_core"
+    },
+    "6": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "7": {
+      "item": "mekanism:supercharged_coil"
+    },
+    "8": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:matter_synthesizer",
+    "count": 1
+  }
+}

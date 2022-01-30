@@ -1,0 +1,154 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar.png",
+          "use1Xscale": false,
+          "name": "bar.png",
+          "x": 200,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "barfill.png",
+          "use1Xscale": false,
+          "name": "barfill.png",
+          "x": 201,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input.png",
+          "use1Xscale": false,
+          "name": "input.png",
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output.png",
+          "use1Xscale": false,
+          "name": "output.png",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "recycle.png",
+          "use1Xscale": true,
+          "name": "recycle.png",
+          "x": 205,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energybar_vertical.png",
+          "use1Xscale": false,
+          "name": "energybar_vertical.png",
+          "x": 288,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "vertical_power.png",
+          "use1Xscale": false,
+          "name": "vertical_power.png",
+          "x": 289,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Recycler",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Recycler",
+          "x": 193,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "extra.png",
+          "use1Xscale": false,
+          "name": "extra.png",
+          "x": 132,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

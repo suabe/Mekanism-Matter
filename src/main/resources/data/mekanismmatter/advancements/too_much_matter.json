@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "mekanismmatter:matter_analyser"
+    },
+    "title": {
+      "translate": "advancements.too_much_matter.title"
+    },
+    "description": {
+      "translate": "advancements.too_much_matter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "too_much_matter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "mekanismmatter:matter_analyser"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "mekanismmatter:astrange_partof_matter"
+}

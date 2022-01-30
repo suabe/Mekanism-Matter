@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "1": {
+      "tag": "forge:glass_panes"
+    },
+    "2": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "3": {
+      "item": "mekanismmatter:trinium_reactor_casing"
+    },
+    "4": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "5": {
+      "item": "mekanismmatter:trinium_reactor_casing"
+    },
+    "6": {
+      "item": "mekanismmatter:trinium_reactor_casing"
+    },
+    "7": {
+      "item": "mekanismmatter:trinium_reactor_casing"
+    },
+    "8": {
+      "item": "mekanismmatter:trinium_reactor_casing"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:naquadah_reactor_controller",
+    "count": 1
+  }
+}

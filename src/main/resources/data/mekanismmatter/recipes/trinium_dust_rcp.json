@@ -1,0 +1,12 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mekanismmatter:deleted_mod_element"
+  },
+  "result": {
+    "item": "mekanismmatter:trinium_dust"
+  }
+}

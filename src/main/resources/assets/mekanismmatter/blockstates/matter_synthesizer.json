@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mekanismmatter:block/matter_synthesizer"
+    },
+    "facing=east": {
+      "model": "mekanismmatter:block/matter_synthesizer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mekanismmatter:block/matter_synthesizer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mekanismmatter:block/matter_synthesizer",
+      "y": 270
+    }
+  }
+}

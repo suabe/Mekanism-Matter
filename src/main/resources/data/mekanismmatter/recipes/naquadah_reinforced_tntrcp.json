@@ -1,0 +1,16 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanismmatter:naquadah"
+    },
+    {
+      "item": "minecraft:tnt"
+    }
+  ],
+  "result": {
+    "item": "mekanismmatter:naquada_reinforced_tnt",
+    "count": 1
+  }
+}

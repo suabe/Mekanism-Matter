@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Irradiated",
+    "splashName": "Splash Irradiated",
+    "lingeringName": "Lingering Irradiated",
+    "arrowName": "Arrow of Irradiated",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Irradiated"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

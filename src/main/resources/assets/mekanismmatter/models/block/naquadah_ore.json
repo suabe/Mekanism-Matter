@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/naquadah_ore",
+    "up": "mekanismmatter:blocks/naquadah_ore",
+    "north": "mekanismmatter:blocks/naquadah_ore",
+    "east": "mekanismmatter:blocks/naquadah_ore",
+    "south": "mekanismmatter:blocks/naquadah_ore",
+    "west": "mekanismmatter:blocks/naquadah_ore",
+    "particle": "mekanismmatter:blocks/naquadah_ore"
+  }
+}

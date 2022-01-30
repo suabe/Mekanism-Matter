@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mekanismmatter:universal_matter_fluid",
+    "mekanismmatter:universal_matter_fluid_flowing",
+    "mekanismmatter:liquid_naquadah",
+    "mekanismmatter:liquid_naquadah_flowing"
+  ]
+}

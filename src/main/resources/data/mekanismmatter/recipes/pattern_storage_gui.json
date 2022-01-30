@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "4": {
+      "item": "minecraft:barrel"
+    },
+    "5": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "6": {
+      "item": "minecraft:redstone"
+    },
+    "7": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "8": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:pattern_storage",
+    "count": 1
+  }
+}

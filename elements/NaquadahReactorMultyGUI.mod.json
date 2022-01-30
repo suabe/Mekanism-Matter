@@ -1,0 +1,447 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 218,
+    "height": 192,
+    "inventoryOffsetX": -21,
+    "inventoryOffsetY": 13,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Naquadah Reactor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Naquadah Reactor",
+          "x": 173,
+          "y": 28
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tank_holder_54px.png",
+          "use1Xscale": false,
+          "name": "tank_holder_54px.png",
+          "x": 276,
+          "y": 133
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 276,
+          "y": 191
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input.png",
+          "use1Xscale": false,
+          "name": "input.png",
+          "x": 276,
+          "y": 191
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "small_med_52px.png",
+          "use1Xscale": false,
+          "name": "small_med_52px.png",
+          "x": 277,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay_plus.png",
+          "use1Xscale": false,
+          "name": "overlay_plus.png",
+          "x": 276,
+          "y": 191
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tank_holder_54px.png",
+          "use1Xscale": false,
+          "name": "tank_holder_54px.png",
+          "x": 297,
+          "y": 133
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 297,
+          "y": 191
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input_2.png",
+          "use1Xscale": false,
+          "name": "input_2.png",
+          "x": 297,
+          "y": 191
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay_plus.png",
+          "use1Xscale": false,
+          "name": "overlay_plus.png",
+          "x": 297,
+          "y": 191
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "small_med_52px.png",
+          "use1Xscale": false,
+          "name": "small_med_52px.png",
+          "x": 298,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 112,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 130,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 298,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 280,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "temp_bar.png",
+          "use1Xscale": false,
+          "name": "temp_bar.png",
+          "x": 113,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "temp_icon.png",
+          "use1Xscale": false,
+          "name": "temp_icon.png",
+          "x": 112,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gammarays_bar.png",
+          "use1Xscale": false,
+          "name": "gammarays_bar.png",
+          "x": 131,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "efficiency_bar.png",
+          "use1Xscale": false,
+          "name": "efficiency_bar.png",
+          "x": 281,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "efficiency_icon.png",
+          "use1Xscale": false,
+          "name": "efficiency_icon.png",
+          "x": 280,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_bar.png",
+          "use1Xscale": false,
+          "name": "fuel_bar.png",
+          "x": 299,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atom_icon.png",
+          "use1Xscale": false,
+          "name": "atom_icon.png",
+          "x": 130,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 112,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 130,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 280,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 298,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "On/Off",
+          "width": 50,
+          "height": 20,
+          "name": "On/Off",
+          "x": 149,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_icon.png",
+          "use1Xscale": false,
+          "name": "fuel_icon.png",
+          "x": 298,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "naquadah_reactor_screen.png",
+          "use1Xscale": false,
+          "name": "naquadah_reactor_screen.png",
+          "x": 149,
+          "y": 41
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "Rate",
+          "x": 229,
+          "y": 109
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rate:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Rate:",
+          "x": 202,
+          "y": 114
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "naquadah_reactor_inner_screen.png",
+          "use1Xscale": false,
+          "name": "naquadah_reactor_inner_screen.png",
+          "x": 150,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line1>",
+          "color": {
+            "value": -16711805,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line1>",
+          "x": 152,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Safe",
+          "width": 45,
+          "height": 20,
+          "name": "Safe",
+          "x": 149,
+          "y": 109
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line2>",
+          "color": {
+            "value": -16711805,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line2>",
+          "x": 152,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line3>",
+          "color": {
+            "value": -16711805,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line3>",
+          "x": 152,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line4>",
+          "color": {
+            "value": -16711805,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line4>",
+          "x": 152,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line5>",
+          "color": {
+            "value": -16711805,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line5>",
+          "x": 152,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line6>",
+          "color": {
+            "value": -16711805,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line6>",
+          "x": 152,
+          "y": 94
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

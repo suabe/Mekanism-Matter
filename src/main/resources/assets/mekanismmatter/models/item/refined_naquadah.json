@@ -1,0 +1,7 @@
+{
+  "parent": "mekanismmatter:custom/refined_naquadah_v1",
+  "textures": {
+    "texture": "mekanismmatter:blocks/sphere",
+    "particle": "mekanismmatter:items/naquadria"
+  }
+}

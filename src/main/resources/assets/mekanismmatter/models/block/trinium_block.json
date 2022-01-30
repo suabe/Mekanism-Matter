@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/trinium_block",
+    "up": "mekanismmatter:blocks/trinium_block",
+    "north": "mekanismmatter:blocks/trinium_block",
+    "east": "mekanismmatter:blocks/trinium_block",
+    "south": "mekanismmatter:blocks/trinium_block",
+    "west": "mekanismmatter:blocks/trinium_block",
+    "particle": "mekanismmatter:blocks/trinium_block"
+  }
+}

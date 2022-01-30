@@ -1,0 +1,23 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bucket"
+    },
+    "1": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "minecraft:water_bucket",
+    "count": 1
+  }
+}

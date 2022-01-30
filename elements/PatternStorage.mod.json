@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "patterncard1",
+    "customModelName": "Normal",
+    "name": "§5Pattern Storage",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:MekanismMatter"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 30,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§7Right click on a Scanner to save scanned items"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "Scasnnergui",
+    "inventorySize": 33,
+    "inventoryStackSize": 1,
+    "onRightClickedInAir": {
+      "name": "PatternStorageRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "PatternStorageRightClickedOnBlock"
+    },
+    "hasDispenseBehavior": false
+  }
+}

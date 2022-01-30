@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "1": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "2": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "3": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "4": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "5": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "6": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "7": {
+      "item": "mekanismmatter:naquadah"
+    },
+    "8": {
+      "item": "mekanismmatter:naquadah"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:naquadah_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Replicator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Replicator",
+          "x": 188,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tank_holder.png",
+          "use1Xscale": false,
+          "name": "tank_holder.png",
+          "x": 132,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "matterfill_full.png",
+          "use1Xscale": false,
+          "name": "matterfill_full.png",
+          "x": 133,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "small_med.png",
+          "use1Xscale": false,
+          "name": "small_med.png",
+          "x": 133,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input_2.png",
+          "use1Xscale": false,
+          "name": "input_2.png",
+          "x": 132,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "overlay_plus.png",
+          "use1Xscale": false,
+          "name": "overlay_plus.png",
+          "x": 132,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inner_screen.png",
+          "use1Xscale": false,
+          "name": "inner_screen.png",
+          "x": 175,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "monitor_outer.png",
+          "use1Xscale": false,
+          "name": "monitor_outer.png",
+          "x": 174,
+          "y": 52
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "replicator_bar.png",
+          "use1Xscale": false,
+          "name": "replicator_bar.png",
+          "x": 162,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_right_button.png",
+          "use1Xscale": false,
+          "name": "arrow_right_button.png",
+          "x": 224,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_left_button.png",
+          "use1Xscale": false,
+          "name": "arrow_left_button.png",
+          "x": 192,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:progress>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:progress>",
+          "x": 178,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:umneeded>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:umneeded>",
+          "x": 178,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:energyneeded>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:energyneeded>",
+          "x": 178,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_replication.png",
+          "use1Xscale": false,
+          "name": "slot_replication.png",
+          "x": 204,
+          "y": 82
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 132,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "replicator_barfill.png",
+          "use1Xscale": false,
+          "name": "replicator_barfill.png",
+          "x": 163,
+          "y": 108
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "energybar_vertical.png",
+          "use1Xscale": false,
+          "name": "energybar_vertical.png",
+          "x": 287,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "vertical_power.png",
+          "use1Xscale": false,
+          "name": "vertical_power.png",
+          "x": 288,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 260,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output.png",
+          "use1Xscale": false,
+          "name": "output.png",
+          "x": 260,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "'",
+          "onClick": {
+            "name": "ReplicatorRemove"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "'",
+          "x": 192,
+          "y": 83
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "'",
+          "onClick": {
+            "name": "ReplicatorAdd"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "'",
+          "x": 224,
+          "y": 83
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

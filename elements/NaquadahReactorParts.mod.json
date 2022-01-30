@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TriniumReactorGlass"
+      },
+      {
+        "value": "CUSTOM:ReactorInputPort"
+      },
+      {
+        "value": "CUSTOM:ReactorOutputPort"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "naquadah_reactor_parts",
+    "namespace": "forge"
+  }
+}

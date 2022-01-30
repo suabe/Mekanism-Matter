@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/bottom",
+    "up": "mekanismmatter:blocks/top",
+    "north": "mekanismmatter:blocks/machine_conversion",
+    "east": "mekanismmatter:blocks/left",
+    "south": "mekanismmatter:blocks/back",
+    "west": "mekanismmatter:blocks/left",
+    "particle": "mekanismmatter:blocks/bottom"
+  }
+}

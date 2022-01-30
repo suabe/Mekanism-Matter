@@ -1,0 +1,8 @@
+{
+  "parent": "mekanismmatter:custom/naquadah_generator_modeltexture_v8",
+  "textures": {
+    "all": "mekanismmatter:blocks/bottom",
+    "particle": "mekanismmatter:blocks/bottom",
+    "texture": "mekanismmatter:blocks/naquadah_generator_modeltexture"
+  }
+}

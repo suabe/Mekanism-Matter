@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "1": {
+      "tag": "forge:ingots/copper"
+    },
+    "2": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "3": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "4": {
+      "item": "mekanism:advanced_smelting_factory"
+    },
+    "5": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "6": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "7": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "8": {
+      "item": "mekanism:alloy_reinforced"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:arc_furnace",
+    "count": 1
+  }
+}

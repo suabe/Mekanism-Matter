@@ -1,0 +1,27 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "4": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "6": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "8": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "minecraft:feather",
+    "count": 32
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanismmatter:scarp"
+    },
+    "1": {
+      "item": "mekanismmatter:scarp"
+    },
+    "2": {
+      "item": "mekanismmatter:scarp"
+    },
+    "3": {
+      "item": "mekanismmatter:scarp"
+    },
+    "4": {
+      "item": "mekanismmatter:scarp"
+    },
+    "5": {
+      "item": "mekanismmatter:scarp"
+    },
+    "6": {
+      "item": "mekanismmatter:scarp"
+    },
+    "7": {
+      "item": "mekanismmatter:scarp"
+    },
+    "8": {
+      "item": "mekanismmatter:scarp"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:scrapbox",
+    "count": 1
+  }
+}

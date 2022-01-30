@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/reactor_glass",
+    "up": "mekanismmatter:blocks/reactor_glass",
+    "north": "mekanismmatter:blocks/reactor_glass",
+    "east": "mekanismmatter:blocks/reactor_glass",
+    "south": "mekanismmatter:blocks/reactor_glass",
+    "west": "mekanismmatter:blocks/reactor_glass",
+    "particle": "mekanismmatter:blocks/reactor_glass"
+  }
+}

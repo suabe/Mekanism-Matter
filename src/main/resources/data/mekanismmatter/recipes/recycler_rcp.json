@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:alloy_infused"
+    },
+    "1": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "2": {
+      "item": "mekanism:alloy_infused"
+    },
+    "3": {
+      "item": "minecraft:dirt"
+    },
+    "4": {
+      "item": "mekanism:crusher"
+    },
+    "5": {
+      "item": "minecraft:dirt"
+    },
+    "6": {
+      "item": "mekanism:alloy_infused"
+    },
+    "7": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "8": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:recycler",
+    "count": 1
+  }
+}

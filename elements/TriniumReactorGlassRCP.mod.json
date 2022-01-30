@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TriniumReactorGlass"
+    },
+    "name": "trinium_reactor_glass_rcp",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "mekanismmatter:custom/foodreplicatorv3",
+  "textures": {
+    "all": "mekanismmatter:blocks/reactor_glass-ctm",
+    "particle": "mekanismmatter:blocks/reactor_glass-ctm",
+    "texture": "mekanismmatter:blocks/foodreplicator"
+  }
+}

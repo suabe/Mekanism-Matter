@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      },
+      {
+        "value": "CUSTOM:TriniumReactorCasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NaquadahReactorController"
+    },
+    "name": "reactor_controller_rcp",
+    "namespace": "mod"
+  }
+}

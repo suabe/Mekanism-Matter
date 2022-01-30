@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "scrap_box_3d"
+      },
+      "name": "default"
+    }
+  }
+}

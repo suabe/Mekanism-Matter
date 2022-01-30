@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "carbon_rod"
+      },
+      "name": "default"
+    }
+  }
+}

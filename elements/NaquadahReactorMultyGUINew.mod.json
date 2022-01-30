@@ -1,0 +1,427 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 220,
+    "height": 195,
+    "inventoryOffsetX": -22,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 111,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 129,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tank_holder_54px.png",
+          "use1Xscale": false,
+          "name": "tank_holder_54px.png",
+          "x": 276,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tank_holder_54px.png",
+          "use1Xscale": false,
+          "name": "tank_holder_54px.png",
+          "x": 298,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 300,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_vertical_verylong_18px.png",
+          "use1Xscale": false,
+          "name": "bar_vertical_verylong_18px.png",
+          "x": 282,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "efficiency_icon.png",
+          "use1Xscale": false,
+          "name": "efficiency_icon.png",
+          "x": 281,
+          "y": 115
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "temp_icon.png",
+          "use1Xscale": false,
+          "name": "temp_icon.png",
+          "x": 111,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atom_icon.png",
+          "use1Xscale": false,
+          "name": "atom_icon.png",
+          "x": 129,
+          "y": 117
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_icon.png",
+          "use1Xscale": false,
+          "name": "fuel_icon.png",
+          "x": 299,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Naquadah Reactor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Naquadah Reactor",
+          "x": 173,
+          "y": 27
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "naquadah_reactor_screen.png",
+          "use1Xscale": false,
+          "name": "naquadah_reactor_screen.png",
+          "x": 149,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "naquadah_reactor_inner_screen.png",
+          "use1Xscale": false,
+          "name": "naquadah_reactor_inner_screen.png",
+          "x": 150,
+          "y": 42
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "O",
+          "onClick": {
+            "name": "OnOffButtonPressed"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "O",
+          "x": 149,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "!",
+          "onClick": {
+            "name": "SafetymodeButtonPressed"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "!",
+          "x": 170,
+          "y": 110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rate:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Rate:",
+          "x": 200,
+          "y": 115
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "d",
+          "x": 226,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "onClick": {
+            "name": "NRG2WhileThisGUIIsOpenTick"
+          },
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 257,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "efficiency_bar.png",
+          "use1Xscale": false,
+          "name": "efficiency_bar.png",
+          "x": 283,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuel_bar.png",
+          "use1Xscale": false,
+          "name": "fuel_bar.png",
+          "x": 301,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "temp_bar.png",
+          "use1Xscale": false,
+          "name": "temp_bar.png",
+          "x": 112,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gammarays_bar.png",
+          "use1Xscale": false,
+          "name": "gammarays_bar.png",
+          "x": 130,
+          "y": 32
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 111,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 129,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 282,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_slider.png",
+          "use1Xscale": false,
+          "name": "bar_slider.png",
+          "x": 300,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line1>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line1>",
+          "x": 152,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line2>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line2>",
+          "x": 152,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line3>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line3>",
+          "x": 152,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line4>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line4>",
+          "x": 152,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line5>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line5>",
+          "x": 152,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:line6>",
+          "color": {
+            "value": -16711801,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:line6>",
+          "x": 152,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input.png",
+          "use1Xscale": false,
+          "name": "input.png",
+          "x": 276,
+          "y": 193
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "input_2.png",
+          "use1Xscale": false,
+          "name": "input_2.png",
+          "x": 298,
+          "y": 193
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RefinedNaquadah"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 276,
+          "y": 193
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 298,
+          "y": 193
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

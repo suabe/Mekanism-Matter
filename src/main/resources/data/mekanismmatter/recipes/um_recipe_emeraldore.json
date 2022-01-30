@@ -1,0 +1,33 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "3 5",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "2": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "3": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "5": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "6": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "7": {
+      "item": "mekanismmatter:universal_matter"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald_ore",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "1": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "2": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "3": {
+      "item": "mekanism:steel_casing"
+    },
+    "4": {
+      "item": "mekanism:teleportation_core"
+    },
+    "5": {
+      "item": "mekanism:steel_casing"
+    },
+    "6": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "7": {
+      "item": "mekanismmatter:pattern_storage"
+    },
+    "8": {
+      "item": "mekanism:alloy_reinforced"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:scanner",
+    "count": 1
+  }
+}

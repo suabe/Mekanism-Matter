@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "EnergyOMeter"
+      },
+      "name": "default"
+    }
+  }
+}

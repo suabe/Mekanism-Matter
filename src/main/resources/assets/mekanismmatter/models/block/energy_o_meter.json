@@ -1,0 +1,8 @@
+{
+  "parent": "mekanismmatter:custom/energyometerv3",
+  "textures": {
+    "all": "mekanismmatter:blocks/naquadah_reinforced_tnt_top",
+    "particle": "mekanismmatter:blocks/naquadah_reinforced_tnt_top",
+    "texture": "mekanismmatter:blocks/EnergyOMeter"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UniversalMatter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UniversalMatter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:UniversalMatter"
+      },
+      {
+        "value": "CUSTOM:UniversalMatter"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.DYE#4"
+    },
+    "name": "um_recipe_lapis",
+    "namespace": "mod"
+  }
+}

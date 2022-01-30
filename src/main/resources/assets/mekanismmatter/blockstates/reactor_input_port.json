@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mekanismmatter:block/reactor_input_port"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "1": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "2": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "3": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "4": {
+      "item": "mekanismmatter:trinium_block"
+    },
+    "5": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "6": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "7": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "8": {
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:trinium_reactor_casing",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mekanismmatter:blocks/naquadah_reinforced_tnt_bottom",
+    "up": "mekanismmatter:blocks/naquadah_reinforced_tnt_top",
+    "north": "mekanismmatter:blocks/naquadah_reinforced_tnt_side",
+    "east": "mekanismmatter:blocks/naquadah_reinforced_tnt_side",
+    "south": "mekanismmatter:blocks/naquadah_reinforced_tnt_side",
+    "west": "mekanismmatter:blocks/naquadah_reinforced_tnt_side",
+    "particle": "mekanismmatter:blocks/naquadah_reinforced_tnt_bottom"
+  }
+}

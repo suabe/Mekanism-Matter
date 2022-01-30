@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "1": {
+      "item": "mekanismmatter:naquadah_reactor_controller"
+    },
+    "2": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "3": {
+      "item": "mekanismmatter:trinium_block"
+    },
+    "4": {
+      "item": "mekanismmatter:naquadah_block"
+    },
+    "5": {
+      "item": "mekanismmatter:trinium_block"
+    },
+    "6": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "7": {
+      "item": "mekanism:solar_neutron_activator"
+    },
+    "8": {
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:naquadah_reactor",
+    "count": 1
+  }
+}

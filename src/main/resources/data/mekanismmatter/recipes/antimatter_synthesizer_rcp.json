@@ -1,0 +1,42 @@
+{
+  "group": "mekanismmatter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "1": {
+      "item": "mekanism:steel_casing"
+    },
+    "2": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "3": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "4": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "5": {
+      "item": "mekanismmatter:universal_matter"
+    },
+    "6": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "7": {
+      "item": "mekanism:steel_casing"
+    },
+    "8": {
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "result": {
+    "item": "mekanismmatter:antimatter_synthesizer",
+    "count": 1
+  }
+}
